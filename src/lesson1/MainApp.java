@@ -15,12 +15,7 @@ public class MainApp {
                 new Runner(1500),
                 new Wall(12),
         };
-        //System.out.println(obstArray[0] instanceof Wall);
-
-        /*for (int i=0; i<teamArray.length; i++){
-            if (obstArray[i] instanceof Runner){
-                System.out.println(((Runner)obstArray[i]).getRunnerDistance());
-            }*/
+        
         for (Object teamMember : teamArray){
             int cumulativeDistnce = 0;
             for (Object obst : obstArray){
