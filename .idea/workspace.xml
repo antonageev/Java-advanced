@@ -31,15 +31,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-web-app" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.MainApp (1)">
+  <component name="RunManager" selected="Application.MainApp (2)">
     <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2_Exceptions.MainApp" />
       <module name="JavaCoreAdvanced" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson2_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson3_Collections.MainApp" />
+      <module name="JavaCoreAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson3_Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,8 +76,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApp (1)" />
+        <item itemvalue="Application.MainApp (2)" />
         <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.MainApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -97,26 +112,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1576929830583" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1576943568381">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1578061292072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576943568381" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1576945415832">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578061292072" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578315477159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576945415832" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1576945415832">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578315477159" />
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1579118913489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576945415832" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1576945415832">
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579118913489" />
+    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1579118913489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576945415832" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1576945415832">
+    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579118913489" />
+    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1579118913489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576945415832" />
+    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579118913489" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1579118913489">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579118913489" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1576945415832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -137,9 +156,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576929915620" />
-    <state x="490" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1576929587607">
+    <state x="490" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1578315360310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576929587607" />
+    <state x="490" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578315360310" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1577903751687">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1577903751687" />
   </component>
 </project>

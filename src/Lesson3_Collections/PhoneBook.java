@@ -1,33 +1,22 @@
 package Lesson3_Collections;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class PhoneBook {
-    private List<PhoneEntry> phoneEntryList = new ArrayList<>();
+    private HashMap<String, Set<String>> hashMap;
 
-    public void add(String name, String number){
-        phoneEntryList.add(new PhoneEntry(name, number));
+    public PhoneBook() {
+        this.hashMap = new HashMap<>();
     }
 
-    public List get(String nameToFind){
-        List<String> outputArrayList = new ArrayList<>();
-        Iterator<PhoneEntry> iter = phoneEntryList.iterator();
-        while (iter.hasNext()){
-            PhoneEntry localEntry = iter.next();
-            if (localEntry.getName().equals(nameToFind)) {
-                outputArrayList.add(localEntry.getNumber());
-            }
-        }
-        return outputArrayList;
+    public void add(String name, String phone){
+            Set<String> entry = hashMap.getOrDefault(name, new HashSet<>());
+            entry.add(phone);
+            hashMap.put(name, entry);
     }
 
-    public void print(){
-        Iterator<PhoneEntry> iter = phoneEntryList.iterator();
-        while (iter.hasNext()){
-            PhoneEntry localEntry = iter.next();
-            System.out.println("Фамилия: " +localEntry.getName() + "; Номер: " + localEntry.getNumber());
-        }
+    public Set<String> get(String name){
+        return hashMap.get(name);
     }
+
 }
