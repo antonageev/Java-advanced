@@ -1,14 +1,14 @@
 package lesson5_multi;
 
+import java.util.Arrays;
+
 public class MainAppMulti {
     static final int SIZE = 10000000;
     static final int HALF = SIZE/2;
     static float[] arr = new float[SIZE];
 
     public static void main(String[] args) {
-        for (int i = 0; i < arr.length; i++) {
-            arr[i]=1;
-        }
+        Arrays.fill(arr, 1);
         methodOneThread();
         methodMultiThread();
     }
